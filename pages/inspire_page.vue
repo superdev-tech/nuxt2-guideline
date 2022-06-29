@@ -3,7 +3,7 @@
     <v-col class="text-center">
       <div>{{ currentLatLon }}</div>
       <div>Is this mobile breakpoint width: {{ isMobile }}</div>
-      <!-- <div>App Version: {{}}</div> -->
+      <div>App Version: {{ $config.version }}</div>
       <img src="/v.png" alt="Vuetify.js" class="mb-5" />
       <blockquote class="blockquote">
         &#8220;First, solve the problem. Then, write the code.&#8221;
