@@ -8,7 +8,7 @@ export default ({ app, store }, inject) => {
   })
 
   inject('isIpad', () => {
-    return app.vuetify.framework.breakpoint.mdAndDown
+    return app.$vuetify.framework.breakpoint.mdAndDown
   })
 
   inject('getDateTimeNews', (date, timeUnit = 'น.') => {
