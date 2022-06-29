@@ -1,0 +1,54 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+
+$body-font-family: 'Prompt';
+.v-application,
+::v-deep .map-content {
+  font-family: $body-font-family, sans-serif !important;
+  [class*='text-'] {
+    font-family: $body-font-family, sans-serif !important;
+  }
+}
+
+$core-search-width: 468px;
+$primary: #183b7f;
+$light-primary: #2988f0;
+
+$secondary: #ffa940;
+
+$nagative: #ce203b;
+
+$positive: #0daa5a;
+
+$white: #fafafa;
+$gray: #babec6;
+$black: #000000;
+$dot-background: #3193fd;
+
+$text-color: $black;
+
+$mq-mobile: 960px;
+
+$desktop-navigation-bar-height: 64px;
+$mobile-navigation-bar-height: 100%;
+
+$desktop-navigation-bar-width: 100%;
+$mobile-navigation-bar-width: 300px;
+
+$mobile-navigation-bar-head-height: 150px;
+
+$mobile-navigation-bar-version-height: 36px;
+
+.maplibregl-ctrl-bottom-right {
+  display: none;
+}
+
+// $grid-breakpoints: (
+//   'xs': 600px,
+//   'sm': 601px - 960px,
+//   'md': 961px - 1264px,
+//   'lg': 1264px - 1904px,
+//   'xl': 1904px,
+// );

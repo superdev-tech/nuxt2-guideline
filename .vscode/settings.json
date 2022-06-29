@@ -1,0 +1,24 @@
+{
+  "editor.formatOnSave": true,
+
+  "vetur.format.defaultFormatter.html": "none",
+  "vetur.format.defaultFormatter.css": "none",
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.format.defaultFormatter.less": "none",
+  "vetur.format.defaultFormatter.postcss": "none",
+  "vetur.format.defaultFormatter.scss": "none",
+  "vetur.format.defaultFormatter.stylus": "none",
+  "vetur.format.defaultFormatter.ts": "none",
+
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.arrowParens": "always",
+
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}",
+    "~": "${workspaceRoot}"
+  },
+  "i18n-ally.localesPaths": "locales",
+  "i18n-ally.keystyle": "nested"
+}

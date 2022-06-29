@@ -1,0 +1,22 @@
+.theme--light.v-application {
+  background-color: transparent !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.mapboxgl-user-location-dot,
+.maplibregl-user-location-dot {
+  background-color: $white !important;
+}
+
+.mapboxgl-user-location-dot:before,
+.maplibregl-user-location-dot:before {
+  background-color: $white !important;
+}
+
+.mapboxgl-user-location-dot:after,
+.maplibregl-user-location-dot:after {
+  border: 6px solid $dot-background !important;
+}
