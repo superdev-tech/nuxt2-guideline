@@ -17,13 +17,21 @@
           </small>
         </footer>
       </blockquote>
+      <InspireDesktop v-if="$vuetify.breakpoint.mdAndUp" />
+      <InspireMobile v-else />
     </v-col>
   </v-row>
 </template>
 
 <script>
+import InspireDesktop from '@/components/inspire/desktop.vue'
+import InspireMobile from '@/components/inspire/mobile.vue'
 export default {
   name: 'InspirePage',
+  components: {
+    InspireDesktop,
+    InspireMobile,
+  },
   layout: 'inspireLayout',
   computed: {
     currentLatLon() {
@@ -35,7 +43,7 @@ export default {
   },
   mounted() {
     this.setLatLon()
-    console.log(this.$config)
+    // console.log(this.$config)
   },
   methods: {
     setLatLon() {
